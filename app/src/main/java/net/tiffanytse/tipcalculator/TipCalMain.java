@@ -34,7 +34,7 @@ public class TipCalMain extends AppCompatActivity {
         //check if app just started or is being restored from memory
         if (savedInstanceState == null) //the app just started running
         {
-            currentBillTotal =0.0 //initalize the bill amount to zero
+            currentBillTotal =0.0; //initalize the bill amount to zero
             currentCustomPercent = 18; // intilize the custome tip to 18%
         }
         else { //app
